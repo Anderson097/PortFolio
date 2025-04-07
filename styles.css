@@ -30,9 +30,7 @@ header {
   align-items: center;
   padding: 2rem;
   position: sticky;
-  /* top: 0; */
-  background: transparent;
-  /* z-index: 1000; */
+  background: #0f0f0f; 
 }
 
 .logo {
@@ -47,7 +45,7 @@ header {
 
 .nav-links a {
   text-transform: lowercase;
-  font-size: 1rem;
+  font-size: 16px;
   color: #999;
   transition: 0.3s;
 }
@@ -167,8 +165,6 @@ header {
     transform: translateX(5px);
   }
   
-  
-
 /* About Section */
 .about {
   display: flex;
@@ -256,7 +252,7 @@ header {
   
   .work-card {
     background: #2a2a2a;
-    min-height: 190px; /* Ensure enough height for the content */
+    min-height: 190px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
@@ -285,8 +281,8 @@ header {
     position: absolute;
     left: 50%;
     top: 93%;
-    transform: translate(-50%, -50%); /* Ensure center alignment */
-    font-size: 1.0rem; /* Adjust font size for better readability */
+    transform: translate(-50%, -50%);
+    font-size: 1.0rem; 
     font-weight: 600;
     color: #fff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
@@ -314,6 +310,11 @@ header {
   }
   
   /* LIGHT THEME */
+
+  body.light header{
+    background-color: #f5f5f5;
+  }
+
   body.light .work-card {
     background: #ddd;
   }
@@ -337,8 +338,6 @@ header {
   body.light .social-links li a:hover{
     color: #1da1f2;
   }
-
-  
 
 /* Footer */
 footer {
@@ -416,7 +415,7 @@ body.light .work-card {
   .nav-links {
     display: none;
     flex-direction: column;
-    background: #111;
+    background: #1c1c1c;
     position: absolute;
     top: 80px;
     right: 2rem;
