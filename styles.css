@@ -545,6 +545,10 @@ body.light .work-card {
     background: #ddd;
   }
 
+  body.light .nav-links{
+    background-color: #ddd;
+  }
+
 
 @media (max-width: 480px) {
 
