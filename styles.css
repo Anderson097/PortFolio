@@ -423,6 +423,10 @@ body.light .work-card {
     border-radius: 8px;
   }
 
+  body.light .nav-links{
+    background-color: #ddd;
+  }
+
   .nav-links.active {
     display: flex;
   }
@@ -545,10 +549,6 @@ body.light .work-card {
     background: #ddd;
   }
 
-  body.light .nav-links{
-    background-color: #ddd;
-  }
-
 
 @media (max-width: 480px) {
 
@@ -567,6 +567,10 @@ body.light .work-card {
 
   .work-card p {
     font-size: 0.85rem;
+  }
+
+  body.light .nav-links{
+    background-color: #ddd;
   }
 
   .about-text h2 {
